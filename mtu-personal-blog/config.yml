@@ -1,0 +1,62 @@
+baseURL: 'https://becacabe2002.github.io/'
+languageCode: en-us
+title: Mr.Fish Personal Blog
+theme: paperMod
+paginate: 5
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+
+params:
+    assets:
+        disableFingerprinting: true
+        favicon: "/favicon-fish2.ico"
+        favicon16x16: "/favicon-fish2-16x16.png"
+        favicon32x32: "/favicon-fish2-32x32.png"
+
+    homeInfoParams:
+      Title: "Mr.Fish's Blog"
+      Content: >
+        This is where i share my knowledge and personal experience about programming, technology, and life through out my learning journey.
+
+
+    socialIcons: 
+      - name: "github"
+        url: "https://github.com/becacabe2002"
+      - name: "facebook"
+        url: "https://www.facebook.com/profile.php?id=100019541237449"
+      - name: "linkedin"
+        url: "www.linkedin.com/in/mtu-ngo"
+
+    ShowBreadCrumbs: true
+    ShowPostNavLinks: true
+    ShowPageNums: true
+    ShowCodeCopyButtons: true
+    ShowToc: true
+
+cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+menu:
+  main:
+    - name: search
+      url: /search/
+      weight: 15
+    - name: tags
+      url: /tags/
+      weight: 20
+    - name: archives
+      url: /archives/
+      weight: 30
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON

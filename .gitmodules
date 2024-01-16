@@ -1,0 +1,7 @@
+[submodule "mtu-personal-blog/themes/paperMod"]
+	path = mtu-personal-blog/themes/paperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "mtu-personal-blog/public"]
+	path = mtu-personal-blog/public
+	url = https://github.com/becacabe2002/becacabe2002.github.io.git
+	branch = main
