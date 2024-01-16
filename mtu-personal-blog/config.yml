@@ -37,6 +37,7 @@ params:
     ShowPageNums: true
     ShowCodeCopyButtons: true
     ShowToc: true
+    ShowAllPagesInArchive: true
 
 cover:
     hidden: false # hide everywhere but not in structured data
